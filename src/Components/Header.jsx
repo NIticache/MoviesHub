@@ -6,6 +6,9 @@ import { useNavigate} from 'react-router-dom';
 
 const Header = () => {
     const navigate=useNavigate();
+    const handleclickhome=()=>{
+navigate('/');
+    }
     const handleclickmovie = () => {
         navigate('/movies',{state:{head:"Movies"}});
 
@@ -21,7 +24,7 @@ const Header = () => {
     <div className="movielogo">Movie Logo</div>
     <nav className="nav__links " >
         <ul>
-            <li><a href='home'>Home</a></li>
+            <li><a onClick={handleclickhome}>Home</a></li>
             <li><a onClick={handleclickmovie}>Movies</a></li>
             <li><a onClick={handleclickseries}>Series</a></li>
             

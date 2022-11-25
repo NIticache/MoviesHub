@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Ruda:wght@500&display=swap');
+@media screen and (max-width : 700px) {
+    .Card{
+background-color: red;
+    }
+
+}
+.Card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    padding-top: 20px;
+    border: 0.5px solid silver;
+    border-radius: 20px;
+    color:rgb(254, 254, 255);
+    font-family: sans-serif;
+    
+    /* background:blue; */
+}
+
+.poster {
+     width: 100%;
+    height: 140px;
+    /*background:green;*/
+    /* padding: 10px 10px 10px 10px ; */
+    /*border: 1px solid black; */
+
+
+}
+.detailsinfo{
+    display:flex;
+    flex-direction: row;
+    /* align-items: center; */
+    /* justify-content: center; */
+    
+}
+.detailstopic{
+    color:black solid ;
+    padding:20px;
+    font-weight: bold;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 50px 10px 50px 10px ;
+}
+.detailsposter{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    /*background:green;*/
+    padding: 30px 10px 30px 10px ;
+    /*border: 1px solid black; */
+}
+.click{
+    
+    padding: 10px;
+    margin:0px;
+    color:white;
+    cursor:pointer;
+    background-color: red;
+    border-radius: 10px;
+}
+.Card:hover{
+    transform: scale(1.1);
+}
+
+.moviename {
+    /* font-size: 14px; */
+    padding: 10px 10px 10px 10px;
+    font-family: sans-serif;
+    font-style: normal;
+}
+
+.movierating {
+
+    padding: 0px 10px 10px 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial;
+}
+
+.top-grid-container{
+    display: grid;
+    justify-content: space-around;
+    row-gap: 50px;
+    column-gap: 10px;
+    grid-template-columns: 15% 15% 15% 15% 15%;
+font-size:20px;
+    padding: 10px;
+}
+
+.grid-container {
+    display: grid;
+    justify-content: space-around;
+    row-gap: 50px;
+    column-gap: 10px;
+    grid-template-columns: 15% 15% 15% 15% 15%;
+font-size:20px;
+    padding: 10px;
+    
+}
+
+.moviepage{
+    background-color: black;
+    /* margin: 20px; */
+    padding :20px;
+    /* border : 2px blue solid; */
+}
+
+
+.details{
+    display : flex;
+    flex-direction: row;
+    background-color: black;
+    width:100%;
+
+
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box ;
+    background-color: black;
+    /* margin:10px; */
+    padding: 10px  50px 20px 50px;
+}
+.bell{
+    font-family:"Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color :rgb(255, 0, 0);
+    cursor: pointer;}
+    .homelist
+    {
+        font-family:"Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color :rgb(255, 255, 255);
+    cursor: pointer;
+    padding :20px;
+    }
+
+    .movielist
+    {
+        display: flex;
+        justify-content: center;
+        font-family:"Montserrat", sans-serif;
+    font-weight: bold;
+    font-size:30px;
+    color :rgb(255, 0, 0);
+    cursor: pointer;
+    padding :20px;
+    }
+
+.header li a {
+    font-family:"Montserrat", sans-serif;
+    /* font-weight:bold; */
+    font-size:17px;
+    text-decoration: none;
+    color :rgb(255, 0, 0);
+
+}
+
+.nav__links{
+list-style: none;
+}
+
+.nav__links li{
+    display: inline-block;
+    cursor :pointer;
+    padding:0px 20px;
+}
+
+.movielogo{
+    font-family:"Montserrat", sans-serif;
+    font-weight: bold;
+    font-size:30px;
+    color :rgb(255, 0, 0);
+    cursor: pointer;
+    
+    
+}
+
+.BreadCrumb{
+  display:flex;
+  justify-content:center;
+  /* align-items:stretch; */
+  padding-top:40px;
+  
+    color:rgb(255, 0, 0);
+    background-color: black;
+}
+
+
+.BreadCrumb-Items{
+    font-size: 20px;
+    font-weight: bold;
+    
+    padding: 0px 20px;
+    cursor:pointer;
+     
+  }
+
+.header button{
+    color:white;
+    background-color:rgb(255, 0, 0);
+    /* font-weight:bold ; */
+    font-size:15px;
+    cursor: pointer;
+}
+.HomeCard{
+    display: grid;
+    
+    justify-content: center;
+    
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    font-size: 100px;
+    color:red;
+    padding :20px;
+    margin :20px 20px;
+    background-color: black;
+    width:100%;
+    height:100%;
+}
+.Home-grid-items{
+    
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgb(228, 199, 199);
+  
+    align-items: center;
+}
+.details{
+    color:white;
+    background-color: black;
+}
+.back{
+    display: flex;
+    padding:30px;
+    align-items: flex-start;
+}
+
+
+
+@media only screen and (max-width: 1000px){
+
+    .header{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        box-sizing: border-box ;
+        background-color: black;
+        /* margin:10px; */
+        padding: 10px  30px 20px 30px;
+    }
+
+    .top-grid-container{
+        display: grid;
+        justify-content: space-around;
+        row-gap: 50px;
+        column-gap: 20px;
+        grid-template-columns: 33% 33% 33%;
+        font-size:20px;
+        padding: 10px;
+    }
+    .grid-container {
+        display: grid;
+        justify-content: space-around;
+        row-gap: 50px;
+        column-gap: 20px;
+        grid-template-columns: 33% 33% 33%;
+    font-size:20px;
+        padding: 10px;
+      
+    }
+    
+.details{
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    width:100%;
+
+
+}
+
+
+}
+
+@media only screen and (max-width: 550px){
+    .top-grid-container{
+        display: grid;
+        justify-content: space-around;
+        row-gap: 50px;
+        column-gap: 20px;
+        grid-template-columns:50% 50%;
+        font-size:20px;
+        padding: 10px;
+    }
+    .grid-container {
+        display: grid;
+        justify-content: space-around;
+        row-gap: 50px;
+        column-gap: 20px;
+        grid-template-columns: 50% 50%;
+    font-size:20px;
+        padding: 10px;
+        }
+        .details{
+            display : flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: black;
+            width:100%;
+        
+        
+        }
+        
+        
+}
